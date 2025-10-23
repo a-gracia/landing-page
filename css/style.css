@@ -7,8 +7,9 @@ body {
   justify-items: center;
 }
 
-.header {
-  width: 1000px;
+.header,
+.hero {
+  width: 800px;
 }
 
 .header {
@@ -30,10 +31,45 @@ ul {
   list-style-type: none;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 24px;
 }
 
-a {
+.header-link,
+.hero-secondary-text {
   color: #e5e7eb;
   text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 80px 0;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+button {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 32px;
+  background-color: #3882f6;
+}
+
+.hero-right {
+  color: white;
+  background-color: rgb(146, 146, 146);
+  text-align: center;
+  align-content: center;
+}
+
+.hero-right,
+.hero-left {
+  width: 400px;
+  flex-basis: auto;
 }
