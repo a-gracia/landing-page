@@ -146,3 +146,10 @@ h2 {
 .CTA-button {
   border: white 2px solid;
 }
+
+.footer {
+  padding: 16px 0;
+  color: white;
+  background-color: #1f2937;
+  text-align: center;
+}
