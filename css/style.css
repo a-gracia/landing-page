@@ -8,7 +8,9 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.phrase-aux,
+.CTA-aux {
   width: 800px;
 }
 
@@ -99,4 +101,48 @@ h2 {
   border-radius: 8px;
   height: 150px;
   border: 2px solid #3882f6;
+}
+
+.phrase {
+  padding: 80px 0;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.author {
+  font-weight: 800;
+  text-align: right;
+}
+
+.CTA {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.CTA-aux {
+  background-color: #3882f6;
+  display: flex;
+  border-radius: 8px;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.CTA-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.CTA-button {
+  border: white 2px solid;
 }
