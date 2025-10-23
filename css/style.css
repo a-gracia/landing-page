@@ -1,1 +1,39 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
 
+.container-hero {
+  background-color: #1f2937;
+  justify-items: center;
+}
+
+.header {
+  width: 1000px;
+}
+
+.header {
+  color: #e5e7eb;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+ul {
+  font-size: 18px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
